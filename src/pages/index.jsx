@@ -33,11 +33,11 @@ class Index extends React.Component {
               </Nav>
           </HeroHeader>
 
-          <HeroBody style={{"background-image": "url(/logos/bubbletea.png)", "background-position": "center center", "background-repeat":"no-repeat"}}>
+          <HeroBody style={{"background-image": "url(/logos/bubbletea.png)", "background-position": "center center", "background-repeat":"no-repeat"}} id="order">
               <Container hasTextAlign='centered'>
                   <Title>Bentley Bubble Tea</Title>
                   <br/>
-                  <Button isSize="large">Order from 1-5PM Thu-Sun!</Button>
+                  <Button isSize="large" isColor="white" isOutlined>Order from 1-5 PM Thu-Sun!</Button>
               </Container>
           </HeroBody>
 
@@ -45,16 +45,16 @@ class Index extends React.Component {
               <Tabs isBoxed isFullWidth>
                   <Container>
                       <TabList>
-                          <Tab isActive><TabLink>Order</TabLink></Tab>
-                          <Tab><TabLink>Menu</TabLink></Tab>
-                          <Tab><TabLink>Updates</TabLink></Tab>
-                          <Tab><TabLink>Contact us</TabLink></Tab>
+                          <Tab isActive><TabLink href="#order">Order</TabLink></Tab>
+                          <Tab><TabLink href="#menu">Menu</TabLink></Tab>
+                          <Tab><TabLink href="#updates">Updates</TabLink></Tab>
+                          <Tab><TabLink href="#contact">Contact us</TabLink></Tab>
                       </TabList>
                   </Container>
               </Tabs>
           </HeroFooter>
         </Hero>
-        <Section isMarginless>
+        <Section isMarginless id="menu">
           <Columns isCentered>
             <Column isSize='1/2'>
               <Card>
@@ -67,8 +67,11 @@ class Index extends React.Component {
                   <Image isRatio='4:3' src='https://via.placeholder.com/1280x960' />
                 </CardImage>
                 <CardContent>
-                   A warm and pleasent mix of milk tea, and with chewy tapioca pearls steeped in sweet syrup.
+                   Warm cup milk tea with chewy tapioca pearls steeped in sweet syrup.
                 </CardContent>
+                <CardFooter>
+                  <Button isColor="info" isSize="medium" isFullWidth>Order Now!</Button>
+                </CardFooter>
               </Card>
             </Column>
           <Column isSize='1/2'>
@@ -82,21 +85,30 @@ class Index extends React.Component {
                   <Image isRatio='4:3' src='https://via.placeholder.com/1280x960' />
                 </CardImage>
                 <CardContent>
-                  Crisply chilled milk tea with chewy tapioca pearls steeped in sweet syrup.
+                  Nicely chilled milk tea with chewy tapioca pearls steeped in sweet syrup.
                 </CardContent>
+                <CardFooter>
+                  <Button isColor="info" isSize="medium" isFullWidth>Order Now!</Button>
+                </CardFooter>
               </Card>
             </Column>
           </Columns>
         </Section>
-        <Section isMarginless>
+        <Section isMarginless id="updates">
           <Box>
-            <Title>Recent News!</Title>
+            <Title>Updates!</Title>
             <PostListing postEdges={postEdges} />
           </Box>
         </Section>
-        <Section>
+        <Section isMarginless>
           <Box>
-            <Subtitle isSize={3}>Contact us anytime!</Subtitle>
+            <Title>About Us</Title>
+            <p>Bubble tea is a dessert drink invented in Taiwan in the 1980s. It's simply a freshly brewed tea with milk and sugar, made both hot and cold.</p>
+          </Box>
+        </Section>
+        <Section id="contact">
+          <Box>
+            <Title isSize={3}>Contact us anytime!</Title>
             <br/>
             <Columns hasTextAlign="centered">
               <Column isSize='1/4'>
