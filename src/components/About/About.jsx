@@ -1,16 +1,15 @@
-import React, { Component } from "react";
-import "./About.css";
+import React from "react";
+import {Section, Title, Box} from "bloomer";
 
-class About extends Component {
+export default class About extends React.Component {
   render() {
     return (
-      <div className="about">
-        <h1>
-          Edit About component or pages/about.jsx to include your information.
-        </h1>
-      </div>
+      <Section isMarginless>
+        <Box>
+          <Title>About Us</Title>
+          <p>Bubble tea is a dessert drink invented in Taiwan in the 1980s. It's simply a freshly brewed tea with milk and sugar, made both hot and cold.</p>
+        </Box>
+      </Section>
     );
   }
-}
-
-export default About;
+};
