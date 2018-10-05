@@ -23,7 +23,6 @@ export default class Front extends React.Component {
         </HeroHeader>
 
         <HeroBody id="order">
-          <BubbleBackground/>
           <Container hasTextAlign='centered'>
             <Title>Bentley Bubble Tea</Title>
             <br/>

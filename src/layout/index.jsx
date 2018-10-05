@@ -50,6 +50,7 @@ export default class MainLayout extends React.Component {
         <Helmet>
           <title>{`${config.siteTitle} |  ${this.getLocalTitle()}`}</title>
           <meta name="description" content={config.siteDescription} />
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.6.0/p5.min.js"></script>
         </Helmet>
         {children}
       </div>

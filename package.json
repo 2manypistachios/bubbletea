@@ -31,12 +31,12 @@
     "gatsby-transformer-sharp": "2.1.1",
     "lodash": "^4.17.4",
     "moment": "^2.22.2",
-    "paper": "^0.11.5",
     "prismjs": "^1.15.0",
     "react": "^16.4.1",
     "react-disqus-comments": "^1.1.1",
     "react-dom": "^16.4.1",
     "react-helmet": "^5.2.0",
+    "react-p5-wrapper": "0.0.4",
     "react-share": "^2.0.0",
     "react-twitter-widgets": "^1.7.1",
     "url-join": "^4.0.0"

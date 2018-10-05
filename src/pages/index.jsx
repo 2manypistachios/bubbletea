@@ -9,6 +9,7 @@ import About from "../components/About/About";
 import Front from "../components/Front/Front";
 import Menu from "../components/Menu/Menu";
 import Contact from "../components/Contact/Contact";
+import BubbleBackground from "../components/BubbleBackground/BubbleBackground";
 
 export default class Index extends React.Component {
   render() {
@@ -17,6 +18,7 @@ export default class Index extends React.Component {
       <Layout location={this.props.location}>
         <Helmet title={config.siteTitle} />
         <SEO />
+        <BubbleBackground/>
         <Front/>
         <About/>
         <Menu/>
