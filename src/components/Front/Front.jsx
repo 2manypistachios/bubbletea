@@ -1,30 +1,17 @@
 import React from "react";
-import {Hero, HeroHeader, HeroBody, HeroFooter, Nav, NavCenter, NavRight, NavLeft, NavItem, Container, Title, Tabs, Tab, TabList, TabLink, Icon, Button} from "bloomer";
-import BubbleBackground from "../BubbleBackground/BubbleBackground";
+import {Hero, HeroHeader, HeroBody, HeroFooter, Nav, NavCenter, NavRight, NavLeft, NavItem, Container, Title, Tabs, Tab, TabList, TabLink, Icon, Button, Image} from "bloomer";
+import BubbleBackground from "../BubbleBackground/BubbleBackground.jsx";
+import "./Front.css";
 
 export default class Front extends React.Component {
   render() {
     return (
-      <Hero isColor='info' isSize='medium' isBold>
-        <HeroHeader>
-          <Nav>
-            <NavLeft>
-              <NavItem isBrand>Bentley BubbleTea</NavItem>
-            </NavLeft>
-            <NavCenter>
-              <NavItem>
-                <Icon className="fa-github" />
-              </NavItem>
-              <NavItem>
-                <Icon className="fa-twitter" />
-              </NavItem>
-            </NavCenter>
-          </Nav>
-        </HeroHeader>
-
+      <Hero isColor='info' isSize='medium' id='front' class="bubbleparent">
+        <BubbleBackground/>
         <HeroBody id="order">
           <Container hasTextAlign='centered'>
             <Title>Bentley Bubble Tea</Title>
+            <Image src={"/logos/bp2.png"}/>
             <br/>
             <Button isSize="large" isColor="white" isOutlined>Order from 1-5 PM Thu-Sun!</Button>
           </Container>

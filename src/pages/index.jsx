@@ -18,7 +18,6 @@ export default class Index extends React.Component {
       <Layout location={this.props.location}>
         <Helmet title={config.siteTitle} />
         <SEO />
-        <BubbleBackground/>
         <Front/>
         <About/>
         <Menu/>

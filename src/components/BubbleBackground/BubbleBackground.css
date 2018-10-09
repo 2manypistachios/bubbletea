@@ -1,0 +1,8 @@
+.bubbleparent {
+    position:relative;
+}
+
+.bubblechild {
+    position:absolute;
+    bottom: 0px;
+}

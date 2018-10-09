@@ -1,0 +1,22 @@
+@charset "utf-8";
+// Import a Google Font
+
+@import url('https://fonts.googleapis.com/css?family=Kirang+Haerang|Quicksand|Kalam|Fondamento|Belleza');
+$family-title:'Fondamento', cursive;
+$weight-title:400;
+
+$family-subtitle:'Belleza', sans-serif;;
+$weight-subtitle:300;
+$button-fontfamily:'Fondamento', cursive;
+
+$family-sans-serif:'Belleza', sans-serif;
+//'Quicksand', sans-serif;
+
+// Import only what you need from Bulma
+@import "./bulma/sass/utilities/_all";
+@import "./bulma/sass/base/_all";
+@import "./bulma/sass/elements/_all";
+@import "./bulma/sass/components/_all";
+@import "./bulma/sass/grid/_all";
+@import "./bulma/sass/layout/_all";
+
