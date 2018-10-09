@@ -4,7 +4,7 @@ import config from "../../data/SiteConfig";
 
 import fontawesome from '@fortawesome/fontawesome'
 import solid from '@fortawesome/fontawesome-free-solid'
-import 'bulma/css/bulma.css'
+import './index.scss'
 
 fontawesome.library.add(solid)
 

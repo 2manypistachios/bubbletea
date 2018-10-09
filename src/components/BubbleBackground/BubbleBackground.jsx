@@ -63,7 +63,7 @@ function sketch (p) {
     //var f = this.mass.div(force);
     //console.log("f",f);
     
-    this.acceleration.add(p.createVector(0,.1));
+    this.acceleration.add(p.createVector(0,1));
   };
     
   Mover.prototype.update = function() {

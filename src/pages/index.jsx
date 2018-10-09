@@ -10,6 +10,7 @@ import Front from "../components/Front/Front";
 import Menu from "../components/Menu/Menu";
 import Contact from "../components/Contact/Contact";
 import BubbleBackground from "../components/BubbleBackground/BubbleBackground";
+import PostListing from "../components/PostListing/PostListing";
 
 export default class Index extends React.Component {
   render() {
@@ -22,6 +23,7 @@ export default class Index extends React.Component {
         <About/>
         <Menu/>
         <Contact/>
+        <PostListing postEdges={postEdges}/>
       </Layout>
     );
   }

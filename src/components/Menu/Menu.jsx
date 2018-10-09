@@ -10,11 +10,11 @@ export default class Menu extends React.Component {
               <Card>
                 <CardHeader>
                   <CardHeaderTitle>
-                    <Title isSize={4}>Original Bubble Tea (M)</Title>
+                    <Title isSize={4}>Original Bubble Tea (H)</Title>
                   </CardHeaderTitle>
                 </CardHeader>
                 <CardImage>
-                  <Image isRatio='4:3' src='https://via.placeholder.com/1280x960' />
+                  <Image src='/logos/bubbletea.png' />
                 </CardImage>
                 <CardContent>
                    Warm cup milk tea with chewy tapioca pearls steeped in sweet syrup.
@@ -32,7 +32,7 @@ export default class Menu extends React.Component {
                 </CardHeaderTitle>
               </CardHeader>
               <CardImage>
-                <Image isRatio='4:3' src='https://via.placeholder.com/1280x960' />
+                <Image src='/logos/bubbletea.png' />
               </CardImage>
               <CardContent>
                 Nicely chilled milk tea with chewy tapioca pearls steeped in sweet syrup.

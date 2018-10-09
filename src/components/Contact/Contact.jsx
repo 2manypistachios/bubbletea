@@ -8,32 +8,24 @@ export default class Contact extends React.Component {
         <Box>
           <Title isSize={3}>Contact us anytime!</Title>
           <br/>
-          <Columns hasTextAlign="centered">
-            <Column isSize='1/4'>
+          <Columns hasTextAlign="centered" class="is-multiline">
+            <Column isSize='1/3'>
             <Title isSize={4}>Nathaniel Duanshi</Title>
             <Subtitle isSize={5}>(917)-599-7250</Subtitle>
             <Subtitle isSize={5}> duanshi_nath@bentley.edu</Subtitle>
             <figure className="image">
-              <img className="is-rounded" src="https://bulma.io/images/placeholders/128x128.png"/>
+              <img className="is-rounded" src="/logos/man4.jpg"/>
             </figure>
             </Column>
-            <Column isSize='1/4'>
+            <Column isSize='1/3'>
             <Title isSize={4}>Nathaniel Duanshi</Title>
             <Subtitle isSize={5}>(917)-599-7250</Subtitle>
-            <Subtitle isSize={5}> duanshi_nath@bentley.edu</Subtitle>
+            <p> duanshi_nath@bentley.edu</p>
             <figure className="image">
-              <img className="is-rounded" src="https://bulma.io/images/placeholders/128x128.png"/>
+              <img className="is-rounded" src="/logos/man3.jpg"/>
             </figure>
             </Column>
-            <Column isSize='1/4'>
-            <Title isSize={4}>Nathaniel Duanshi</Title>
-            <Subtitle isSize={5}>(917)-599-7250</Subtitle>
-            <Subtitle isSize={5}> duanshi_nath@bentley.edu</Subtitle>
-            <figure className="image">
-              <img className="is-rounded" src="https://bulma.io/images/placeholders/128x128.png"/>
-            </figure>
-            </Column>
-            <Column isSize='1/4'>
+            <Column isSize='1/3'>
             <Title isSize={4}>Nathaniel Duanshi</Title>
             <Subtitle isSize={5}>(917)-599-7250</Subtitle>
             <Subtitle isSize={5}> duanshi_nath@bentley.edu</Subtitle>
