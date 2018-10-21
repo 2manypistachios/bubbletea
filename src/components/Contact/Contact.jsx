@@ -7,8 +7,8 @@ export default class Contact extends React.Component {
       <Section id="contact">
           <Title isSize={3}>Contact us anytime!</Title>
           <br/>
-          <Columns hasTextAlign="centered" isMultiline isVCentered>
-            <Column isSize='1/3'>
+          <Columns hasTextAlign="centered" isMultiline>
+            <Column isSize='1/3' isDisplay="flex">
               <Card>
                 <CardImage>
                   <img className="is-rounded" src="/logos/nathaniel.jpeg"/>
@@ -21,7 +21,7 @@ export default class Contact extends React.Component {
               </Card>
             </Column>
 
-            <Column isSize='1/3'>
+            <Column isSize='1/3' isDisplay="flex">
               <Card>
                 <CardImage>
                   <img className="is-rounded" src="/logos/kai.jpg"/>
@@ -34,7 +34,7 @@ export default class Contact extends React.Component {
               </Card>
             </Column>
 
-            <Column isSize='1/3'>
+            <Column isSize='1/3' isDisplay="flex">
               <Card>
                 <CardImage>
                   <img className="is-rounded" src="/logos/tiger.jpeg"/>
@@ -47,7 +47,7 @@ export default class Contact extends React.Component {
               </Card>
             </Column>
 
-            <Column isSize='1/3'>
+            <Column isSize='1/3' isDisplay="flex">
               <Card>
                 <CardImage>
                   <img className="is-rounded" src="/logos/john.jpg"/>
@@ -60,7 +60,7 @@ export default class Contact extends React.Component {
               </Card>
             </Column>
             
-            <Column isSize='1/3'>
+            <Column isSize='1/3' isDisplay="flex">
               <Card>
                 <CardImage>
                   <img className="is-rounded" src="/logos/john.jpg"/>

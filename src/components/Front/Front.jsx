@@ -12,7 +12,7 @@ export default class Front extends React.Component {
           <Container hasTextAlign='centered'>
             <Image src={"/logos/logo2.png"}/>
             <br/>
-            <Button isSize="large" isColor="white" isOutlined>Order from 1-5 PM Thu-Sun!</Button>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLScPl4GvswUnGlJpHH_xZfDAXnjC6lX6r397GGGmMGmVpC4LYw/viewform"><Button isSize="large" isColor="white" isOutlined>Order from 1-5 PM Thu-Sun!</Button></a>
           </Container>
         </HeroBody>
 

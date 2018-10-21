@@ -20,7 +20,7 @@ export default class Menu extends React.Component {
                    Warm cup milk tea with chewy tapioca pearls steeped in sweet syrup.
                 </CardContent>
                 <CardFooter>
-                  <Button isColor="info" isSize="medium" isFullWidth>Order Now!</Button>
+                  <Button href="https://docs.google.com/forms/d/e/1FAIpQLScPl4GvswUnGlJpHH_xZfDAXnjC6lX6r397GGGmMGmVpC4LYw/viewform" isColor="info" isSize="medium" isFullWidth>Order Now!</Button>
                 </CardFooter>
               </Card>
             </Column>
@@ -38,7 +38,7 @@ export default class Menu extends React.Component {
                 Nicely chilled milk tea with chewy tapioca pearls steeped in sweet syrup.
               </CardContent>
               <CardFooter>
-                <Button isColor="info" isSize="medium" isFullWidth>Order Now!</Button>
+                <Button href="https://docs.google.com/forms/d/e/1FAIpQLScPl4GvswUnGlJpHH_xZfDAXnjC6lX6r397GGGmMGmVpC4LYw/viewform" isColor="info" isSize="medium" isFullWidth>Order Now!</Button>
               </CardFooter>
             </Card>
           </Column>
