@@ -1,8 +1,5 @@
-.bubbleparent {
-    position:relative;
-}
-
-.bubblechild {
+#bubblechild {
     position:absolute;
     bottom: 0px;
+    background-color:#209cee!important;
 }

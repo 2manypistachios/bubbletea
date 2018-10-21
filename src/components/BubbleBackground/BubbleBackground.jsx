@@ -4,9 +4,16 @@ import "./BubbleBackground.css";
 //import P5Wrapper from 'react-p5-wrapper';
 
 class P5Wrapper extends React.Component {
+  constructor() {
+    super();
+    try {
+      this.p5 = require('./p5.min.js');
+    } catch(e) {
+      console.error(e);
+    }
+  }
   componentDidMount() {
     try {
-      p5 = require('./p5.min.js');
       this.canvas = new p5(this.props.sketch, this.wrapper);
       if( this.canvas.myCustomRedrawAccordingToNewPropsHandler ) {
         this.canvas.myCustomRedrawAccordingToNewPropsHandler(this.props);
@@ -27,7 +34,7 @@ class P5Wrapper extends React.Component {
   }
 
   render() {
-    return <div ref={wrapper => this.wrapper = wrapper}></div>;
+    return <div id="bubblechild" ref={wrapper => this.wrapper = wrapper}></div>;
   }
 }
 
@@ -177,7 +184,7 @@ function sketch (p) {
 export default class BubbleBackground extends React.Component {
   render() {
     return (
-      <div id="bubblechild">
+      <div >
         <P5Wrapper sketch={sketch}/>
       </div>
     )
