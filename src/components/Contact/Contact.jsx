@@ -32,7 +32,7 @@ export default class Contact extends React.Component {
               <Subtitle isSize={5}>(781)-975-3687</Subtitle>
               <Subtitle isSize={5}> shen_wang@bentley.edu</Subtitle>
               <figure className="image">
-                <img className="is-rounded" src="/logos/john.jpg"/>
+                <img className="is-rounded" src="/logos/tiger.jpeg"/>
               </figure>
             </Column>
 
@@ -41,7 +41,7 @@ export default class Contact extends React.Component {
               <Subtitle isSize={5}>(917)-617-6978</Subtitle>
               <Subtitle isSize={5}> jiang_lynt@bentley.edu</Subtitle>
               <figure className="image">
-                <img className="is-rounded" src="/logos/tiger.jpeg"/>
+                <img className="is-rounded" src="/logos/john.jpg"/>
               </figure>
             </Column>
             
