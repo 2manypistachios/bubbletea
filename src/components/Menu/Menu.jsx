@@ -14,7 +14,7 @@ export default class Menu extends React.Component {
                   </CardHeaderTitle>
                 </CardHeader>
                 <CardImage>
-                  <Image src='/logos/bubbletea.png' />
+                  <Image src='/logos/firstproduct.jpg' />
                 </CardImage>
                 <CardContent>
                    Warm cup milk tea with chewy tapioca pearls steeped in sweet syrup.
@@ -32,7 +32,7 @@ export default class Menu extends React.Component {
                 </CardHeaderTitle>
               </CardHeader>
               <CardImage>
-                <Image src='/logos/bubbletea.png' />
+                <Image src='/logos/firstproduct.jpg' />
               </CardImage>
               <CardContent>
                 Nicely chilled milk tea with chewy tapioca pearls steeped in sweet syrup.
