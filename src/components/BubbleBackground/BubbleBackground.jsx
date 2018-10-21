@@ -1,9 +1,35 @@
 import React from "react";
 import "./BubbleBackground.css";
-import p5 from "./p5.min.js";
-import P5Wrapper from 'react-p5-wrapper';
 
-console.log("This is p5, : ",p5);
+//import P5Wrapper from 'react-p5-wrapper';
+
+class P5Wrapper extends React.Component {
+  componentDidMount() {
+    try {
+      p5 = require('./p5.min.js');
+      this.canvas = new p5(this.props.sketch, this.wrapper);
+      if( this.canvas.myCustomRedrawAccordingToNewPropsHandler ) {
+        this.canvas.myCustomRedrawAccordingToNewPropsHandler(this.props);
+      }
+    } catch(e) {
+      console.error(e);
+    }
+  }
+
+  componentWillReceiveProps(newprops) {
+    if(this.props.sketch !== newprops.sketch){
+      this.wrapper.removeChild(this.wrapper.childNodes[0]);
+      this.canvas = new p5(newprops.sketch, this.wrapper);
+    }
+    if( this.canvas.myCustomRedrawAccordingToNewPropsHandler ) {
+      this.canvas.myCustomRedrawAccordingToNewPropsHandler(newprops);
+    }
+  }
+
+  render() {
+    return <div ref={wrapper => this.wrapper = wrapper}></div>;
+  }
+}
 
 function sketch (p) {
   //console.log(this.p);
@@ -149,11 +175,11 @@ function sketch (p) {
 };
 
 export default class BubbleBackground extends React.Component {
-    render() {
-        return (
-          <div class="bubblechild">
-            <P5Wrapper sketch={sketch}/>
-          </div>
-        )
-    }
-}
+  render() {
+    return (
+      <div id="bubblechild">
+        <P5Wrapper sketch={sketch}/>
+      </div>
+    )
+  }
+};
