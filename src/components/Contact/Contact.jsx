@@ -1,14 +1,13 @@
 import React from "react";
-import {Section, Title, Subtitle, Box, Columns, Column} from "bloomer";
+import {Section, Title, Subtitle, Card, CardImage, CardContent, Columns, Column} from "bloomer";
 
 export default class Contact extends React.Component {
   render() {
     return (
       <Section id="contact">
-        <Box>
           <Title isSize={3}>Contact us anytime!</Title>
           <br/>
-          <Columns hasTextAlign="centered" isMultiline class=" is-multiline">
+          <Columns hasTextAlign="centered" isMultiline>
             <Column isSize='1/3'>
               <Title isSize={4}>Nathaniel Duanshi</Title>
               <Subtitle isSize={5}>(917)-599-7250</Subtitle>
@@ -54,7 +53,6 @@ export default class Contact extends React.Component {
               </figure>
               </Column>
           </Columns>
-        </Box>
       </Section>
     )
   }

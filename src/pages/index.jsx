@@ -23,7 +23,6 @@ export default class Index extends React.Component {
         <About/>
         <Menu/>
         <Contact/>
-        <PostListing postEdges={postEdges}/>
       </Layout>
     );
   }
