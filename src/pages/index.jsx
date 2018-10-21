@@ -9,8 +9,8 @@ import About from "../components/About/About";
 import Front from "../components/Front/Front";
 import Menu from "../components/Menu/Menu";
 import Contact from "../components/Contact/Contact";
-import BubbleBackground from "../components/BubbleBackground/BubbleBackground";
-import PostListing from "../components/PostListing/PostListing";
+//import BubbleBackground from "../components/BubbleBackground/BubbleBackground";
+//import PostListing from "../components/PostListing/PostListing";
 
 export default class Index extends React.Component {
   render() {
