@@ -5,13 +5,11 @@ export default class Contact extends React.Component {
   render() {
     return (
       <Section id="contact">
-          <Title isSize={3}>Contact us anytime!</Title>
-          <br/>
           <Columns hasTextAlign="centered" isMultiline>
             <Column isSize='1/3' isDisplay="flex">
               <Card>
                 <CardImage>
-                  <img className="is-rounded" src="/logos/nathaniel.jpeg"/>
+                  <img className="is-rounded" src="/logos/nathaniel.png"/>
                 </CardImage>
                 <CardContent>
                   <Title isSize={4}>Nathaniel Duanshi</Title>
@@ -24,7 +22,7 @@ export default class Contact extends React.Component {
             <Column isSize='1/3' isDisplay="flex">
               <Card>
                 <CardImage>
-                  <img className="is-rounded" src="/logos/kai.jpg"/>
+                  <img className="is-rounded" src="/logos/kai.png"/>
                 </CardImage>
                 <CardContent>
                   <Title isSize={4}>Kai Peng</Title>
@@ -50,7 +48,7 @@ export default class Contact extends React.Component {
             <Column isSize='1/3' isDisplay="flex">
               <Card>
                 <CardImage>
-                  <img className="is-rounded" src="/logos/john.jpg"/>
+                  <img className="is-rounded" src="/logos/john.png"/>
                 </CardImage>
                 <CardContent>
                   <Title isSize={4}>Lynthpher Jiang</Title>
@@ -63,7 +61,7 @@ export default class Contact extends React.Component {
             <Column isSize='1/3' isDisplay="flex">
               <Card>
                 <CardImage>
-                  <img className="is-rounded" src="/logos/max.png"/>
+                  <img className="is-rounded" src="/logos/Max.png"/>
                 </CardImage>
                 <CardContent>
                   <Title isSize={4}>Maxim Podolski</Title>

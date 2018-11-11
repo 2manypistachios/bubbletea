@@ -1,16 +1,16 @@
 import React from "react";
 import {Section, Title , Columns, Column, Card, CardHeader, CardHeaderTitle, CardImage, Image, CardContent, CardFooter, Button } from "bloomer";
-
+import Form from "../Form/Form";
 export default class Menu extends React.Component {
   render() {
     return (
       <Section isMarginless id="menu">
-          <Columns isCentered>
-            <Column isSize='1/2'>
+          <Columns isCentered isDisplay="flex">
+            <Column isSize={{mobile: 6, desktop: 4, widescreen: 2}}>
               <Card>
                 <CardHeader>
                   <CardHeaderTitle>
-                    <Title isSize={4}>Original Bubble Tea (H)</Title>
+                    <Title isSize={4}>Original Bubble Tea</Title>
                   </CardHeaderTitle>
                 </CardHeader>
                 <CardImage>
@@ -20,15 +20,15 @@ export default class Menu extends React.Component {
                    Warm cup milk tea with chewy tapioca pearls steeped in sweet syrup.
                 </CardContent>
                 <CardFooter>
-                  <Button href="https://docs.google.com/forms/d/e/1FAIpQLScPl4GvswUnGlJpHH_xZfDAXnjC6lX6r397GGGmMGmVpC4LYw/viewform" isColor="info" isSize="medium" isFullWidth>Order Now!</Button>
+                  <Button href="/order" isColor="info" isSize="medium" isFullWidth>Order Now!</Button>
                 </CardFooter>
               </Card>
             </Column>
-          <Column isSize='1/2'>
+          <Column isSize={{mobile: 6, desktop: 4, widescreen: 2}}>
             <Card>
               <CardHeader>
                 <CardHeaderTitle>
-                  <Title isSize={4}>Original Bubble Tea (C)</Title>
+                  <Title isSize={4}>Taro Tea</Title>
                 </CardHeaderTitle>
               </CardHeader>
               <CardImage>
@@ -38,7 +38,7 @@ export default class Menu extends React.Component {
                 Nicely chilled milk tea with chewy tapioca pearls steeped in sweet syrup.
               </CardContent>
               <CardFooter>
-                <Button href="https://docs.google.com/forms/d/e/1FAIpQLScPl4GvswUnGlJpHH_xZfDAXnjC6lX6r397GGGmMGmVpC4LYw/viewform" isColor="info" isSize="medium" isFullWidth>Order Now!</Button>
+                <Button href="/order" isColor="info" isSize="medium" isFullWidth>Order Now!</Button>
               </CardFooter>
             </Card>
           </Column>

@@ -20,8 +20,8 @@ export default class Index extends React.Component {
         <Helmet title={config.siteTitle} />
         <SEO />
         <Front/>
-        <About/>
         <Menu/>
+        <About/>
         <Contact/>
       </Layout>
     );
