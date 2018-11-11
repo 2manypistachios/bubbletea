@@ -35,7 +35,7 @@ export default class Contact extends React.Component {
             <Column isSize='1/3' isDisplay="flex">
               <Card>
                 <CardImage>
-                  <img className="is-rounded" src="/logos/tiger.jpeg"/>
+                  <img className="is-rounded" src="/logos/tiger.jpg"/>
                 </CardImage>
                 <CardContent>
                   <Title isSize={4}>Tiger Shen</Title>
