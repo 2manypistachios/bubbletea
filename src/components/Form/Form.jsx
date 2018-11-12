@@ -109,7 +109,7 @@ export default class Form extends React.Component {
                 <Label>Chose payment</Label>
               </FieldLabel>
               <FieldBody>
-                <Control>
+                <Control name="Payment">
                   <Select>
                       <option>Venmo (USD) @Nathaniel-Duanshi</option>
                       <option>Webchat (RMB)</option>
