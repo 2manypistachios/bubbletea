@@ -103,6 +103,32 @@ export default class Form extends React.Component {
               ))}
             </Field>
             <Button onClick={this.handleAddShareholder}>Add Drink</Button>
+            
+            <Field isHorizontal>
+              <FieldLabel isNormal>
+                <Label>Chose your drink!</Label>
+              </FieldLabel>
+              <FieldBody>
+
+              </FieldBody>
+            </Field>
+            <Field>
+              <FieldBody>
+                <Control>
+                  <Select name={`Drink #${idx + 1}`}
+                    placeholder={`Drink #${idx + 1}`}
+                    value={drink.name}
+                    onChange={this.handleShareholderNameChange(idx)}>
+                      <option>Milk Tea Hot</option>
+                      <option>Taro Hot</option>
+                      <option>Milk Tea Cold</option>
+                      <option>Taro Cold</option>
+                  </Select>
+                  <Button onClick={this.handleRemoveShareholder(idx)}>X</Button>
+                </Control>
+              </FieldBody>
+              ))}
+            </Field>
 
             <Field isHorizontal>
               <FieldLabel isNormal>
