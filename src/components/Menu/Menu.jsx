@@ -16,10 +16,10 @@ export default class Menu extends React.Component {
                   </CardHeaderTitle>
                 </CardHeader>
                 <CardImage>
-                  <Image src='/logos/original.jpg' className="stripe-1"/>
+                  <img src='/logos/original.jpg' className="stripe-1"/>
                 </CardImage>
                 <CardContent>
-                   Warm cup milk tea with chewy tapioca pearls steeped in sweet syrup.
+                Authentic freshly made milk tea with chewy tapioca pearls at the bottom, perfect substitute for coffee!
                 </CardContent>
                 <CardFooter>
                   <Button href="/order" isColor="info" isSize="medium" isFullWidth>Order Now!</Button>
@@ -37,7 +37,7 @@ export default class Menu extends React.Component {
                 <Image src='/logos/tarotea.jpg' />
               </CardImage>
               <CardContent>
-                Nicely chilled milk tea with chewy tapioca pearls steeped in sweet syrup.
+              Rich taro flavoured milk tea with chewy tapioca pearls at the bottom, a classic Asian flavour.
               </CardContent>
               <CardFooter>
                 <Button href="/order" isColor="info" isSize="medium" isFullWidth>Order Now!</Button>
