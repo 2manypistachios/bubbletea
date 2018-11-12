@@ -1,6 +1,8 @@
 import React from "react";
 import {Section, Title , Columns, Column, Card, CardHeader, CardHeaderTitle, CardImage, Image, CardContent, CardFooter, Button } from "bloomer";
 import Form from "../Form/Form";
+import "./Menu.css";
+
 export default class Menu extends React.Component {
   render() {
     return (
@@ -14,7 +16,7 @@ export default class Menu extends React.Component {
                   </CardHeaderTitle>
                 </CardHeader>
                 <CardImage>
-                  <Image src='/logos/original.jpg' />
+                  <Image src='/logos/original.jpg' className="stripe-1"/>
                 </CardImage>
                 <CardContent>
                    Warm cup milk tea with chewy tapioca pearls steeped in sweet syrup.
