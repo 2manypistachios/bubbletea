@@ -1,7 +1,7 @@
 import React from "react";
 import {Section, Title , Columns, Column, Card, CardHeader, CardHeaderTitle, CardImage, Image, CardContent, CardFooter, Button } from "bloomer";
-import Form from "../Form/Form";
-import "./Menu.css";
+//import Form from "../Form/Form";
+//import "./Menu.css";
 
 export default class Menu extends React.Component {
   render() {
@@ -16,7 +16,7 @@ export default class Menu extends React.Component {
                   </CardHeaderTitle>
                 </CardHeader>
                 <CardImage>
-                  <img src='/logos/originaltea.jpg' className="stripe-1"/>
+                  <img src='/logos/originaltea.jpg'/>
                 </CardImage>
                 <CardContent>
                 Authentic freshly made milk tea with chewy tapioca pearls at the bottom, perfect substitute for coffee!
