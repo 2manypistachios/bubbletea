@@ -8,4 +8,24 @@
         #465298 20px
     );
 }
-  
+
+
+.menu {
+    display: flex!important; 
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+}
+  .card-content {
+    flex: 1 0 auto;
+  }
+  .card-footer {
+    flex-shrink: 0;
+  }
+
+.menubutton {
+    width:100%;
+    bottom: 0;
+}

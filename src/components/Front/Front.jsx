@@ -26,7 +26,7 @@ export default class Front extends React.Component {
                 <Tab isActive><TabLink href="#order">Order</TabLink></Tab>
                 <Tab><TabLink href="#menu">Menu</TabLink></Tab>
                 <Tab><TabLink href="#about">About</TabLink></Tab>
-                <Tab><TabLink href="#contact">Contact us</TabLink></Tab>
+                <Tab><TabLink href="#contact">Contact</TabLink></Tab>
               </TabList>
             </Container>
           </Tabs>

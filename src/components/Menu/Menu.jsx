@@ -1,18 +1,18 @@
 import React from "react";
 import {Section, Title , Columns, Column, Card, CardHeader, CardHeaderTitle, CardImage, Image, CardContent, CardFooter, Button } from "bloomer";
 //import Form from "../Form/Form";
-//import "./Menu.css";
+import "./Menu.css";
 
 export default class Menu extends React.Component {
   render() {
     return (
       <Section isMarginless id="menu">
-          <Columns isCentered isVCentered isMobile>
-            <Column isSize={{mobile: 6, desktop: 4, widescreen: 2}} isDisplay="flex-mobile">
+          <Columns isCentered isMobile>
+            <Column isSize={{mobile: 6, desktop: 4, widescreen: 2}} className="menu">
               <Card>
                 <CardHeader>
                   <CardHeaderTitle>
-                    <Title isSize={4}>Original Bubble Tea</Title>
+                    <Title isSize={4}>Original Tea</Title>
                   </CardHeaderTitle>
                 </CardHeader>
                 <CardImage>
@@ -21,12 +21,12 @@ export default class Menu extends React.Component {
                 <CardContent>
                 Authentic freshly made milk tea with chewy tapioca pearls at the bottom, perfect substitute for coffee!
                 </CardContent>
-                <CardFooter>
+                <CardFooter className="menubutton">
                   <Button href="/order" isColor="info" isSize="medium" isFullWidth>Order Now!</Button>
                 </CardFooter>
               </Card>
             </Column>
-          <Column isSize={{mobile: 6, desktop: 4, widescreen: 2}} isDisplay="flex-mobile">
+          <Column isSize={{mobile: 6, desktop: 4, widescreen: 2}} className="menu">
             <Card>
               <CardHeader>
                 <CardHeaderTitle>
@@ -39,8 +39,8 @@ export default class Menu extends React.Component {
               <CardContent>
               Rich taro flavoured milk tea with chewy tapioca pearls at the bottom, a classic Asian flavour.
               </CardContent>
-              <CardFooter>
-                <Button href="/order" isColor="info" isSize="medium" isFullWidth>Order Now!</Button>
+              <CardFooter className="menubutton">
+                <Button href="/order" isColor="info" isSize="medium" isFullWidth className="menubutton">Order Now!</Button>
               </CardFooter>
             </Card>
           </Column>
@@ -49,3 +49,9 @@ export default class Menu extends React.Component {
     );
   }
 };
+
+/*
+              
+
+              
+*/
