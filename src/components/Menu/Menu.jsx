@@ -16,7 +16,7 @@ export default class Menu extends React.Component {
                   </CardHeaderTitle>
                 </CardHeader>
                 <CardImage>
-                  <img src='/logos/original.jpg' className="stripe-1"/>
+                  <img src='/logos/originaltea.jpg' className="stripe-1"/>
                 </CardImage>
                 <CardContent>
                 Authentic freshly made milk tea with chewy tapioca pearls at the bottom, perfect substitute for coffee!
