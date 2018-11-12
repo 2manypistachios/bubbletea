@@ -106,15 +106,14 @@ export default class Form extends React.Component {
             
             <Field isHorizontal>
               <FieldLabel isNormal>
-                <Label>Chose your drink!</Label>
+                <Label>Chose payment</Label>
               </FieldLabel>
               <FieldBody>
                 <Control>
                   <Select>
-                      <option>Milk Tea Hot</option>
-                      <option>Taro Hot</option>
-                      <option>Milk Tea Cold</option>
-                      <option>Taro Cold</option>
+                      <option>Venmo (USD) @Nathaniel-Duanshi</option>
+                      <option>Webchat (RMB)</option>
+                      <option>Cash (USD)</option>
                   </Select>
                 </Control>
               </FieldBody>
