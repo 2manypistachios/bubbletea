@@ -12,7 +12,7 @@ export default class Menu extends React.Component {
               <Card>
                 <CardHeader>
                   <CardHeaderTitle>
-                    <Title isSize={4}>Original Tea</Title>
+                    <Title isSize={4}>Bubble Milk Tea</Title>
                   </CardHeaderTitle>
                 </CardHeader>
                 <CardImage>
@@ -30,7 +30,7 @@ export default class Menu extends React.Component {
             <Card>
               <CardHeader>
                 <CardHeaderTitle>
-                  <Title isSize={4}>Taro Tea</Title>
+                  <Title isSize={4}>Bubble Taro Tea</Title>
                 </CardHeaderTitle>
               </CardHeader>
               <CardImage>
