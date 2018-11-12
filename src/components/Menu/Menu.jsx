@@ -5,8 +5,8 @@ export default class Menu extends React.Component {
   render() {
     return (
       <Section isMarginless id="menu">
-          <Columns isCentered isDisplay="flex">
-            <Column isSize={{mobile: 6, desktop: 4, widescreen: 2}}>
+          <Columns isCentered isVCentered isMobile>
+            <Column isSize={{mobile: 6, desktop: 4, widescreen: 2}} isDisplay="flex-mobile">
               <Card>
                 <CardHeader>
                   <CardHeaderTitle>
@@ -24,7 +24,7 @@ export default class Menu extends React.Component {
                 </CardFooter>
               </Card>
             </Column>
-          <Column isSize={{mobile: 6, desktop: 4, widescreen: 2}}>
+          <Column isSize={{mobile: 6, desktop: 4, widescreen: 2}} isDisplay="flex-mobile">
             <Card>
               <CardHeader>
                 <CardHeaderTitle>

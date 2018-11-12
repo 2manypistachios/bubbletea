@@ -5,7 +5,7 @@ export default class Contact extends React.Component {
   render() {
     return (
       <Section id="contact">
-          <Columns hasTextAlign="centered" isMultiline>
+          <Columns hasTextAlign="centered" isMultiline isCentered>
             <Column isSize='1/3' isDisplay="flex">
               <Card>
                 <CardImage>
