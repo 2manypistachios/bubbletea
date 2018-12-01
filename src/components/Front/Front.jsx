@@ -13,7 +13,7 @@ export default class Front extends React.Component {
           <Container hasTextAlign='centered'>
             <Image src={"/logos/logoandtext.png"}/>
             <br/><br/>
-            <a href="/order"><Button isSize="large" isColor="black" isOutlined>Order Here!</Button></a>
+            {/*<a href="/order"><Button isSize="large" isColor="black" isOutlined>Order Here!</Button></a>*/}
             <br/>
             <Subtitle>WE ARE CLOSED FOR THIS SEMESTER.</Subtitle>
           </Container>

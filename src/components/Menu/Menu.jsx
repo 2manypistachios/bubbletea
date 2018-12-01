@@ -22,7 +22,7 @@ export default class Menu extends React.Component {
                 Authentic freshly made milk tea with chewy tapioca pearls at the bottom, perfect substitute for coffee!
                 </CardContent>
                 <CardFooter className="menubutton">
-                  <Button href="/order" isColor="info" isSize="medium" isFullWidth>Order Now!</Button>
+                  {/*<Button href="/order" isColor="info" isSize="medium" isFullWidth>Order Now!</Button>*/}
                 </CardFooter>
               </Card>
             </Column>
@@ -40,7 +40,7 @@ export default class Menu extends React.Component {
               Rich taro flavoured milk tea with chewy tapioca pearls at the bottom, a classic Asian flavour.
               </CardContent>
               <CardFooter className="menubutton">
-                <Button href="/order" isColor="info" isSize="medium" isFullWidth className="menubutton">Order Now!</Button>
+                {/*<Button href="/order" isColor="info" isSize="medium" isFullWidth className="menubutton">Order Now!</Button>*/}
               </CardFooter>
             </Card>
           </Column>
