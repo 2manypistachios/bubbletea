@@ -15,7 +15,7 @@ export default class Front extends React.Component {
             <br/><br/>
             <a href="/order"><Button isSize="large" isColor="black" isOutlined>Order Here!</Button></a>
             <br/>
-            <Subtitle>We're open from 1-5 PM Thu-Sun!</Subtitle>
+            <Subtitle>WE ARE CLOSED FOR THIS SEMESTER.</Subtitle>
           </Container>
         </HeroBody>
 
