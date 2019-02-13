@@ -8,7 +8,7 @@ export default class Menu extends React.Component {
     return (
       <Section isMarginless id="menu">
           <Columns isCentered isMobile>
-            <Column isSize={{mobile: 8, desktop: 5, widescreen: 5}} className="menu">
+            <Column isSize={{mobile: 10, desktop: 8, widescreen: 4}} className="menu">
               <Card>
                 <CardHeader>
                   <CardHeaderTitle>
