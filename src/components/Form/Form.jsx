@@ -47,7 +47,7 @@ export default class Form extends React.Component {
   render() {
     return (
       <form id="gform" method="GET" onSubmit={this.handleSubmit} >
-        <h2>Closed for today!</h2>
+        <h2>Open Wed 12-5!</h2>
         <Columns isVCentered>
           <Column isSize={9}>
             <Field isHorizontal>
