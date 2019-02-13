@@ -94,9 +94,7 @@ export default class Form extends React.Component {
                     value={drink.name}
                     onChange={this.handleShareholderNameChange(idx)}>
                       <option>Milk Tea Hot</option>
-                      <option>Taro Hot</option>
                       <option>Milk Tea Cold</option>
-                      <option>Taro Cold</option>
                   </Select>
                   <Button onClick={this.handleRemoveShareholder(idx)}>X</Button>
                 </Control>
