@@ -1,5 +1,7 @@
 import React from "react";
 import { Field, FieldLabel, FieldBody, Label, Control, Input, Select, Button, Columns, Column, Title, Subtitle } from "bloomer";
+var moment = require('moment');
+moment().format();
 
 export default class Form extends React.Component {
   constructor() {
@@ -30,7 +32,18 @@ export default class Form extends React.Component {
   }
   
   handleSubmit = (evt) => {
+    evt.preventDefault();
     const { name, drinks } = this.state;
+    if (moment().weekday() !=3) {
+      alert("We're only open on Wednesdays 1-5!");
+      console.log("Error: wrong week day");
+      return;
+    }
+    if (moment().hours() < 12 || moment().hours() > 17) {
+      alert("We're only open Wednesdays 1-5!");
+      console.log("Error: unopen hour");
+      return;
+    }
     alert(`Thanks for ordering ${drinks.length} drinks!`);
   }
   
