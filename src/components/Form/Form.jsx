@@ -32,14 +32,16 @@ export default class Form extends React.Component {
   }
   
   handleSubmit = (evt) => {
-    evt.preventDefault();
+    
     const { name, drinks } = this.state;
     if (moment().weekday() !=3) {
+      evt.preventDefault();
       alert("We're only open on Wednesdays 1-5!");
       console.log("Error: wrong week day");
       return;
     }
     if (moment().hours() < 12 || moment().hours() > 17) {
+      evt.preventDefault();
       alert("We're only open Wednesdays 1-5!");
       console.log("Error: unopen hour");
       return;
