@@ -61,7 +61,7 @@ export default class Contact extends React.Component {
             <Column isSize='1/3' isDisplay="flex">
               <Card>
                 <CardImage>
-                  <img className="is-rounded" src="/logos/Max.png"/>
+                  <img className="is-rounded" src="/logos/max-square.jpg"/>
                 </CardImage>
                 <CardContent>
                   <Title isSize={4}>Maxim Podolski</Title>
